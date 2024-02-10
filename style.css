@@ -36,11 +36,26 @@ button {
     justify-content: space-between;
 }
 
-.btn {
+.btn,
+#start {
     padding: 15px;
     color: rgb(99, 5, 5);
     font-size: 30px;
     border: 1px solid rgb(99, 5, 5);
     border-radius: 10px;
     transition: all 0.5s;
+}
+
+.btn:hover {
+    background: rgb(99, 5, 5);
+    color: #4b4444;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.none {
+    display: none !important;
 }
